@@ -1,0 +1,133 @@
+######################
+# Gradle
+######################
+.gradle/
+**/build/
+!src/**/build/
+.gradle-cache/
+gradle-app.setting
+.gradletasknamecache
+
+# Ignore Gradle wrapper logs but not wrapper files
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+######################
+# Java
+######################
+*.class
+*.jar
+*.war
+*.ear
+
+######################
+# IntelliJ IDEA
+######################
+.idea/
+*.iws
+*.iml
+*.ipr
+out/
+
+######################
+# VS Code
+######################
+.vscode/
+
+######################
+# Eclipse
+######################
+.project
+.classpath
+.settings/
+
+######################
+# macOS
+######################
+.DS_Store
+
+######################
+# Windows
+######################
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+######################
+# Logs and temp files
+######################
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+######################
+# Test & coverage reports
+######################
+**/test-results/
+**/reports/
+**/jacoco/
+**/coverage/
+**/test-output/
+
+######################
+# Distribution archives
+######################
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+######################
+# Build tool generated scripts
+######################
+**/scripts/
+**/distributions/
+
+######################
+# OS-specific
+######################
+Icon?
+.Trashes
+ehthumbs.vbs
+*.stackdump
+
+######################
+# JetBrains Rider
+######################
+.idea/
+*.sln.iml
+
+######################
+# Backup files
+######################
+*.old
+*.orig
+*.rej
+
+######################
+# Environment
+######################
+.env
+.env.*
+
+######################
+# Nix
+######################
+result
+.result/
+.nix-channels/
+.nix-defexpr/
+.cache/
+*.drv
+*.nix~
+
+
+######################
+# Git Attributes & Config
+######################
+.gitattributes
+
+
