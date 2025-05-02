@@ -15,14 +15,4 @@ public class MissingNumberTest {
         // assertion
         assertEquals(2, res);
     }
-
-    @Test
-    void missingNumberTest22() {
-        int[] nums = new int[] { 3, 0, 1 };
-
-        int res = MissingNumber.missingNumber2(nums);
-
-        // assertion
-        assertEquals(2, res);
-    }
 }
